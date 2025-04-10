@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    font-family: cursive;
+}
+
+body{
+    background-color: beige;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.producto{
+
+}
+ .productol:last-child{
+    
+ }
+.producto{
+    width: 350px;
+    height: 120px;
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.fotoProducto{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 6px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+.datoProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.valoresProducto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.valoracion{
+    background-color: orange;
+    height: 30px;
+    line-height: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    text-align: center;
+}
+
